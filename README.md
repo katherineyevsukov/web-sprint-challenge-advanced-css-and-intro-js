@@ -29,9 +29,15 @@ Please answer the following questions below, you may edit the readme file to inc
 2. Talk about 3 different things you can do to ensure your website is accessible. 
 
     One way we can make sure our website is accessible is by using semantic HTML tags and providing descriptions of images. This way, if an individual is accessing our website using a screen reader, the page will be easy to understand and to navigate appropriately. Another important way to ensure accessibility is through the use of scalable units of measurement as well as the use of media queries. In doing so, our website will be accessible across many different devices and sizing content up/down and zooming in/out will be seamless. Color is one last thing to keep in mind for accessibility. For example, using red font on a green background would be a poor choice as the content would not be accessible to someone with red/green colorblindness. Ensuring that any component where color is related to meaning has another type of visual symbol attached to it is also important. 
-    
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+    Variables are a way to store data. This data can be used later and can be changed depending on the type of variable we use (const/var/let). We can declare a variable by using the appropriate variable keyword, naming the variable and setting it equal to a value. Then, when we name the variable later on, it's value will be returned.
+
 4. What is the purpose of using functions in code?
+
+    Functions are useful because they are written to perform a particular task. We can then perform this task over and over easily without having to write out the same code again and again. 
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
