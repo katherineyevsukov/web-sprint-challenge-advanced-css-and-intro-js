@@ -292,10 +292,13 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
+function addArtist(array, id, name, years, genre, nationality, bio){
+    array.push({id, name, years, genre, nationality, bio});
+    return array;
   }
-
+  
+  console.log('task 6:', addArtist(artists, 20, 'Kat Yevsukov', '1993 - current day', 'web Design', 'Russian', 'Happy Little Ipsum. We dont make mistakes, we just have happy accidents.'))
+  
   
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
