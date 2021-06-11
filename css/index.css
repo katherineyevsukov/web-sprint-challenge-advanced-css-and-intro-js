@@ -14,14 +14,14 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
-/* border: 0;   */
+border: 0;  
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
 }
 /*GENERAL STYLES*/
 *{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 html{
     font-size:62.5%;
@@ -37,8 +37,9 @@ h1, p, .name, .bio {
     margin: 4%;	
 }	
 h1{
-    font-size:6rem;
+    font-size:8rem;
     margin:0;
+    font-weight: bold;
 }
 a {	
     text-decoration: none;	
@@ -144,7 +145,7 @@ button:hover{
    /*header styles here */
    h1{
        font-size: 4.5rem;
-       font-weight: bold;
+    
    }
     nav{
         width: 50%;
@@ -165,7 +166,6 @@ button:hover{
         background-size:cover;
         margin-bottom: 2%;
         height: 30vh;
-        
     }
     
     .title-container hr{
@@ -200,6 +200,6 @@ button:hover{
     }
 
     .artist img{
-        height: 20rem; 
+        height: 19rem; 
         width: 80%;    
     }
