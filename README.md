@@ -23,8 +23,13 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
-  Accessibility means making your website readily available and easily useable to anyone who wants to access it, regardless of how or where they are accessing it. For example, it should be accessible on all types of devices as well to those who have differing visual or audio needs. We must consider a plethora of variations in the ways people will access our website and keep all different types of people in mind when building. Keeping in mind the "universal design theory" will be beneficial to all users as well as the client we are building our website for.
+
+  Accessibility means making your website readily available and easily useable to anyone who wants to access it, regardless of how or where they are accessing it. For example, it should be accessible on all types of devices as well to those who have differing visual or audio needs. We must consider a plethora of variations in the ways people will access our website and keep all different types of users in mind when building. Keeping in mind the "universal design theory" and designing with consideration to the "furthest out individual" will be beneficial to all users as well as to the client we are building our website for.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+    One way we can make sure our website is accessible is by using semantic HTML tags and providing descriptions of images. This way, if an individual is accessing our website using a screen reader, the page will be easy to understand and to navigate appropriately. Another important way to ensure accessibility is through the use of scalable units of measurement as well as the use of media queries. In doing so, our website will be accessible across many different devices and sizing content up/down and zooming in/out will be seamless. Color is one last thing to keep in mind for accessibility. For example, using red font on a green background would be a poor choice as the content would not be accessible to someone with red/green colorblindness. Ensuring that any component where color is related to meaning has another type of visual symbol attached to it is also important. 
+    
 3. How would you explain the concept of a variable to someone new to programming?
 4. What is the purpose of using functions in code?
 
